@@ -5,9 +5,25 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  border: 2px solid black;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App{
+  text-align: center;
+}
+ul{
+  list-style: none;
+}
+nav ul li{
+  display: inline;
+  padding:15px;
+  margin:5px;
+}
+.book_list{
+  padding:15px;
+  margin:15px;
+}
+.book_list ul li{
+  padding: 10px;
 }
