@@ -10,11 +10,11 @@ class BookList extends Component {
                 const theme = isLightTheme?light:dark;
 
                 return (
-                    <div className="book_list" style={{background:theme.bg,color:theme.syntax}}>
+                    <div className="book_list" style={{color:theme.syntax}}>
                         <ul>
-                            <li>Once upon a time</li>
-                            <li>Pride and Prejudice</li>
-                            <li>The Sun Also Raises</li>
+                            <li style={{background:theme.ui}}>Once upon a time</li>
+                            <li style={{background:theme.ui}}>Pride and Prejudice</li>
+                            <li style={{background:theme.ui}}>The Sun Also Raises</li>
                         </ul>
                     </div>
                 )
