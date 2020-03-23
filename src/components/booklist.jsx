@@ -8,7 +8,6 @@ class BookList extends Component {
             <ThemeContext.Consumer>{(context) => {
                 const{isLightTheme,light,dark} = context;
                 const theme = isLightTheme?light:dark;
-
                 return (
                     <div className="book_list" style={{color:theme.syntax}}>
                         <ul>
@@ -19,7 +18,6 @@ class BookList extends Component {
                     </div>
                 )
             }}
-
             </ThemeContext.Consumer>
         );
     }
